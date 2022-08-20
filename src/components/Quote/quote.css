@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
+
+.quote-container {
+  width: 100%;
+  margin: auto;
+  background: linear-gradient(90deg, black, rgb(41, 255, 3));
+  height: 300px;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+.quote-container h1 {
+  font-size: medium;
+}
+.quote-container h2 {
+  text-align: center;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.quote-container small {
+  font-weight: lighter;
+  /* margin-top: -40px; */
+}
