@@ -8,7 +8,7 @@ import Quote from "./components/Quote/Quote";
 // import dotenv from "dotenv";
 export default class App extends Component {
   pagesize = 15;
-  apiKey = process.env.REACT_APP_API_KEY;
+  apiKey = "8612a62300ee4a768c582439293dc261";
 
   state = {
     progress: 0,
